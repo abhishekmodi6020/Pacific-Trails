@@ -1,0 +1,172 @@
+.mainheader{
+  background-image: url("../images/sunset.jpg");
+  background-size: cover;
+  background-color: #000033;
+  background-position: right;
+  margin: 0px;
+}
+
+header{
+  margin-top: 10px;
+}
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.nopadding {
+   padding: 0;
+   /* margin: 0 !important; */
+}
+
+.noRpadding{
+  padding-right: 0;
+}
+
+.rightpadding{
+  padding: 0;
+  padding-right: 30px;
+}
+
+.mrg_top_bottom{
+  margin: 20px 0 20px 0;
+}
+
+body{
+  background-image: url("../images/background.jpg");
+  /* background-size: cover; */
+}
+
+/* .mainbody{ */
+  /* display: table; */
+  /* height: 100%; */
+/* } */
+
+dt, .boldblack{
+  color: black;
+  font-weight: bold;
+}
+
+#wrapper{
+  font-family:verdana, ARIAL, sans-serif;
+  color: #666666;
+  background-color: #FFFFFF;
+  margin:0px;
+  align-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px #333333;
+}
+
+img{
+  width: 100%;
+}
+
+h1{
+  line-height: 200%;
+  color: #FFFFFF;
+  margin: 0 0 0 20px;
+}
+
+h2{
+    font-family: georgia,serif;
+    color: #3399CC;
+}
+
+h3{
+  color:  #000033;
+  /* font-weight: bold; */
+}
+
+.navigation{
+  font-weight: bold;
+  background-color: #90C7E3;
+  bac
+}
+
+.navUl{
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+}
+
+.navli{
+  text-decoration: none;
+  color: #000033;
+}
+
+.navli:visited{
+  color: #344873;
+  /* text-decoration: none; */
+}
+
+.navli:hover{
+  color : #FFFFFF;
+  text-decoration: none;
+}
+
+
+
+.pacific{
+  color: black;
+  font-size: large;
+}
+
+.myresv{
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+}
+
+
+.pad20px{
+  padding-left: 20px;
+}
+
+table{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  align-content: center;
+  border: 1px solid black;
+  align-content: center;
+}
+
+th, td{
+  text-align: center;
+  border: 1px solid blue;
+  border-spacing:0;
+}
+
+tr:nth-child(odd){
+  background-color:#FFFFFF;
+}
+
+tr:nth-child(even){
+  background-color:#F5FAFC;
+}
+
+.notcenter{
+  text-align: left;
+}
+
+/* .formalign label{
+  width: 150px;
+} */
+
+textarea{
+  vertical-align: top;
+}
+
+.submitresv{
+  margin-left: 150px;
+}
+
+footer{
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: .70em;
+  font-style: italic;
+}

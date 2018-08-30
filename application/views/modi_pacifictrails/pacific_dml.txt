@@ -1,0 +1,16 @@
+Insert into reservationyurt (arrivaldate,ofnights,packageid) Values('$arrivaldate','$ofnights','$package');
+
+Insert into client(fname,Lname,phone,email,resid,activityid) Values ('$firstname', '$lastname','$phone','$email',LAST_INSERT_ID(),'$activities');
+
+Insert into whendate(date,activityid,clientid)   Values('$whendate','$activities',LAST_INSERT_ID());
+
+select activityid, activitydescription from activities;
+
+select packageid, packagename from package;
+
+SELECT C.fname, C.lname, C.phone, C.email, A.activitydescription, R.arrivaldate, R.ofnights, P.packageName, w.date FROM client AS C
+    INNER JOIN activities AS A on C.activityid = A.activityid
+    INNER JOIN reservationyurt AS R on C.resid = R.resid
+    INNER JOIN package AS P on R.packageid = P.packageid
+    INNER JOIN whendate as W on C.clientid = W.clientid
+    WHERE C.email = '$email';
